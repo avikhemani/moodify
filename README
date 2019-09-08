@@ -1,0 +1,50 @@
+user:akhemani (Khemani, Avi)
+
+INSTRUCTIONS: 
+(App works on all devices, but UI looks best on iPhone XR, portrait mode)
+
+On the first tab, (the screen with many emojis), you can select any of the emojis, but preferably the happy emoji. The other emojis work properly, but its information is either incomplete or it defaults to happy information. This takes you to a directory page. (After clicking an emoji, 3 minutes later, if you are not on Moodify, the app sends a local notification telling you to come back and check out more options)
+
+On the directory page, you can click the blue "Learn more" button, and it will take you to a website about the mood. 
+	• Press on the "Quotes" cell to go to a list of quotes that fit/help your selected mood. 
+	• Press on the "Music" cell to go to a list of songs, their artist, and album picture. You can click any song to start playing music (or you can click the play button to start playing music), and press the fast forward button /rewind button to go back and forth on the list of music. You can press the blue play button to play music, and red play button to pause music.
+	• Press on the "Pictures" cell to go to a list of different pictures. On this table view, you can scroll up and down to view the different types of images, and you can scroll left and right to view all the images. 
+	• Press on the "Videos" cell to go to a list of video names and their thumbnails. You can click on any cell to take to you the video on youtube. 
+	• At any time, you can click the "Home" button on the top right of the screen to return to the home screen (the screen with many emojis)
+
+Once you are back, you can click on the "Add Entry" tab. This is where you add new Journal entries
+	• First, pick a date. You can do so by pressing "Choose Date" which will bring up a popover date picker to choose from. Once you have your date, you can press "Select Date" and it will edit the date label.
+	• Second, pick a picture for that day. Press on "Choose Image" and it will bring up an action sheet of either taking a picture from the Camera, or choosing a picture from your photo library. Pick either one and continue. 
+	• Third, add your text. You can click the "Edit" button to add your entry. It will take you to a Text View to add your entry. Click "Done" on the top right to save it, or cancel if you don't want to save anything.
+	• Once you are done, press "Add Entry" on the bottom right. If your date has not been entered yet, it will bring up an alert saying that your journal has been saved. If you have used the date, it will ask if you want to replace your old entry or change the date. Pick one and continue. 
+
+Once you have entered your entry, go to the Profile tab. Here, you can upload an image of yourself. You can also press the "Edit" button next to your Current Mood, and it will bring up a pickerView of emojis. To see your entries, click on "Reload" button on the table view. There, you will see the entry you added previously. click on that date cell and it will show you your journal entry. You can delete this entry from the profile page by swiping left on the cell and confirming the alert that pops up. Also, on the top right of the profile page, there is a "Stats" button. Click on it, and it will show you your percentages of the moods you have selected. 
+
+
+SELF GRADE:
+
+Covered in class API:
+UITableView/Controller/Cell (3 points)
+UICollectionView/Cell (1 point)
+UINavigation/TabBar (1 point)
+Label, Button, TextView, etc. (2 points)
+layoutSubviews (1 point)
+Unwind Segue, Modal Segue, Show Segue (2 points)
+Popover Segue (1 point)
+Autolayout constraints (1 point)
+UIView Propery Animation (1 point)
+Codable, Property List, UserDefaults (2 points)
+UIImagePickerController (Camera/Photo Library) (1 point)
+UIGestureRecognizer: Tap (1 point)
+Date, Date Formatter (1 point)
+Alert / Action Sheet (2 points)
+
+NCIL:
+AVAudioPlayer/AVFoundation (1 point)
+UIPicker (1 point)
+UIDatePicker (1 point)
+UNUserNotificationCenter: local notifications (1 point)
+WebKit / WKWebView (1 point)
++4 max for NCIL API
+
+Misc API: 1 point

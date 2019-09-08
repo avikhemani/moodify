@@ -7,21 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4509E753229F1BF3005720CA /* MoodDictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509E752229F1BF3005720CA /* MoodDictionaries.swift */; };
+		4509E757229F3ED3005720CA /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509E756229F3ED3005720CA /* SongTableViewCell.swift */; };
+		4509E75E229F4520005720CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4509E75D229F4520005720CA /* AVFoundation.framework */; };
+		450B65E822B1D0AC00907112 /* Kiss the Rain.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65DA22B1D0AB00907112 /* Kiss the Rain.m4a */; };
+		450B65E922B1D0AC00907112 /* Nuvole bianche.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65DB22B1D0AB00907112 /* Nuvole bianche.m4a */; };
+		450B65EA22B1D0AC00907112 /* Tik Tok.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65DC22B1D0AB00907112 /* Tik Tok.m4a */; };
+		450B65EB22B1D0AC00907112 /* I Gotta Feeling.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65DD22B1D0AB00907112 /* I Gotta Feeling.m4a */; };
+		450B65EC22B1D0AC00907112 /* Battle Scars.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65DE22B1D0AB00907112 /* Battle Scars.m4a */; };
+		450B65ED22B1D0AC00907112 /* Old Town Road.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65DF22B1D0AB00907112 /* Old Town Road.m4a */; };
+		450B65EE22B1D0AC00907112 /* The Man.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E022B1D0AB00907112 /* The Man.m4a */; };
+		450B65EF22B1D0AC00907112 /* Down.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E122B1D0AB00907112 /* Down.m4a */; };
+		450B65F022B1D0AC00907112 /* River Flows In You.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E222B1D0AB00907112 /* River Flows In You.m4a */; };
+		450B65F122B1D0AC00907112 /* Fight Song.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E322B1D0AB00907112 /* Fight Song.m4a */; };
+		450B65F222B1D0AC00907112 /* Dynamite.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E422B1D0AB00907112 /* Dynamite.m4a */; };
+		450B65F322B1D0AC00907112 /* Fireflies.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E522B1D0AB00907112 /* Fireflies.m4a */; };
+		450B65F422B1D0AC00907112 /* Bright Star.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E622B1D0AB00907112 /* Bright Star.m4a */; };
+		450B65F522B1D0AC00907112 /* A Thousand Years.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 450B65E722B1D0AB00907112 /* A Thousand Years.m4a */; };
 		450D45EE229CA6550090B5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D45ED229CA6550090B5ED /* AppDelegate.swift */; };
-		450D45F0229CA6550090B5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D45EF229CA6550090B5ED /* ViewController.swift */; };
+		450D45F0229CA6550090B5ED /* MoodChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D45EF229CA6550090B5ED /* MoodChoiceViewController.swift */; };
 		450D45F3229CA6550090B5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450D45F1229CA6550090B5ED /* Main.storyboard */; };
 		450D45F5229CA6570090B5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450D45F4229CA6570090B5ED /* Assets.xcassets */; };
 		450D45F8229CA6570090B5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450D45F6229CA6570090B5ED /* LaunchScreen.storyboard */; };
+		450D4600229CAA9B0090B5ED /* MoodChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D45FF229CAA9B0090B5ED /* MoodChoiceView.swift */; };
+		450D4602229CBAEF0090B5ED /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D4601229CBAEF0090B5ED /* Grid.swift */; };
+		450D4604229CBBE20090B5ED /* MoodChoiceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D4603229CBBE20090B5ED /* MoodChoiceSelectionView.swift */; };
+		450D4606229CDECD0090B5ED /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D4605229CDECD0090B5ED /* Mood.swift */; };
+		4548EFA322A0DCD3007AE037 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548EFA222A0DCD3007AE037 /* VideoTableViewController.swift */; };
+		4548EFA522A0DDFA007AE037 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548EFA422A0DDFA007AE037 /* VideoTableViewCell.swift */; };
+		4548EFA722A0E047007AE037 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4548EFA622A0E047007AE037 /* VideoInfo.swift */; };
+		457ECB9F229F089400F4FCD7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457ECB9E229F089400F4FCD7 /* WebKit.framework */; };
+		4584318322A87A70005D8CC1 /* A Thousand Years.png in Resources */ = {isa = PBXBuildFile; fileRef = 4584317F22A87A6F005D8CC1 /* A Thousand Years.png */; };
+		4584318422A87A70005D8CC1 /* Kiss the Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4584318022A87A6F005D8CC1 /* Kiss the Rain.png */; };
+		4584318522A87A70005D8CC1 /* River Flows In You.png in Resources */ = {isa = PBXBuildFile; fileRef = 4584318122A87A70005D8CC1 /* River Flows In You.png */; };
+		4584318622A87A70005D8CC1 /* Nuvole bianche.png in Resources */ = {isa = PBXBuildFile; fileRef = 4584318222A87A70005D8CC1 /* Nuvole bianche.png */; };
+		4587DC3B22A0876B000B8617 /* MoodLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4587DC3A22A0876B000B8617 /* MoodLinks.swift */; };
+		4598099D229DEAD2002D6A67 /* OptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4598099C229DEAD2002D6A67 /* OptionsTableViewController.swift */; };
+		4598099F229DEB2D002D6A67 /* OptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4598099E229DEB2D002D6A67 /* OptionTableViewCell.swift */; };
+		45A6CF7422A1D46E00E561DA /* AddJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6CF7322A1D46E00E561DA /* AddJournalEntryViewController.swift */; };
+		45A6CF7622A1E2BB00E561DA /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6CF7522A1E2BB00E561DA /* DatePickerViewController.swift */; };
+		45B5C9F122A343100018F342 /* EditJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B5C9F022A343100018F342 /* EditJournalViewController.swift */; };
+		45C8A4A922A7AB2F00CCA95F /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8A4A822A7AB2E00CCA95F /* MyProfileViewController.swift */; };
+		45C8A4AB22A7AE3E00CCA95F /* MoodStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C8A4AA22A7AE3E00CCA95F /* MoodStatsViewController.swift */; };
+		45C8A4AE22A85A5600CCA95F /* defaultProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C8A4AD22A85A5600CCA95F /* defaultProfile.png */; };
+		45D514DA229DFCB90089EDE0 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D514D9229DFCB90089EDE0 /* Options.swift */; };
+		45D514DC229E0B4D0089EDE0 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D514DB229E0B4D0089EDE0 /* DescriptionTableViewCell.swift */; };
+		45D514DE229E358F0089EDE0 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D514DD229E358F0089EDE0 /* WebsiteViewController.swift */; };
+		45DDD6DE229F682B00E3390F /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DDD6DD229F682B00E3390F /* MusicViewController.swift */; };
+		45DDD700229F767900E3390F /* Fireflies.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DDD6FF229F767900E3390F /* Fireflies.png */; };
+		45DDD706229F785400E3390F /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DDD705229F785300E3390F /* noimage.png */; };
+		45DDD70C229F79F600E3390F /* Dynamite.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DDD708229F79F600E3390F /* Dynamite.png */; };
+		45DDD70D229F79F600E3390F /* The Man.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DDD709229F79F600E3390F /* The Man.png */; };
+		45DDD70E229F79F600E3390F /* I Gotta Feeling.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DDD70A229F79F600E3390F /* I Gotta Feeling.png */; };
+		45DDD70F229F79F600E3390F /* Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DDD70B229F79F600E3390F /* Down.png */; };
+		45E4748F22A9D1A0006DA0D1 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4748E22A9D1A0006DA0D1 /* JournalEntry.swift */; };
+		45E4749222A9D89B006DA0D1 /* StoreableByNameInUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4749022A9D89B006DA0D1 /* StoreableByNameInUserDefaults.swift */; };
+		45E4749322A9D89B006DA0D1 /* StoreableByName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4749122A9D89B006DA0D1 /* StoreableByName.swift */; };
+		45E4749522A9E6E7006DA0D1 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E4749422A9E6E7006DA0D1 /* JournalEntryViewController.swift */; };
+		45EA6F27229FC669006D7A56 /* QuotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6F26229FC669006D7A56 /* QuotesTableViewController.swift */; };
+		45EA6F29229FD001006D7A56 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6F28229FD001006D7A56 /* ImageCollectionViewCell.swift */; };
+		45EA6F2B229FD0E2006D7A56 /* ImageCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6F2A229FD0E2006D7A56 /* ImageCollectionTableViewCell.swift */; };
+		45EA6F2D229FD41A006D7A56 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6F2C229FD41A006D7A56 /* Utilities.swift */; };
+		45EA6F2F229FD6C6006D7A56 /* ImageCollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA6F2E229FD6C6006D7A56 /* ImageCollectionTableViewController.swift */; };
+		45EDECE422ACED68002FA66A /* Old Town Road.png in Resources */ = {isa = PBXBuildFile; fileRef = 45EDECE322ACED67002FA66A /* Old Town Road.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4509E752229F1BF3005720CA /* MoodDictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDictionaries.swift; sourceTree = "<group>"; };
+		4509E756229F3ED3005720CA /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		4509E75D229F4520005720CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		450B65DA22B1D0AB00907112 /* Kiss the Rain.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kiss the Rain.m4a"; sourceTree = "<group>"; };
+		450B65DB22B1D0AB00907112 /* Nuvole bianche.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nuvole bianche.m4a"; sourceTree = "<group>"; };
+		450B65DC22B1D0AB00907112 /* Tik Tok.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tik Tok.m4a"; sourceTree = "<group>"; };
+		450B65DD22B1D0AB00907112 /* I Gotta Feeling.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Gotta Feeling.m4a"; sourceTree = "<group>"; };
+		450B65DE22B1D0AB00907112 /* Battle Scars.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Battle Scars.m4a"; sourceTree = "<group>"; };
+		450B65DF22B1D0AB00907112 /* Old Town Road.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Old Town Road.m4a"; sourceTree = "<group>"; };
+		450B65E022B1D0AB00907112 /* The Man.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Man.m4a"; sourceTree = "<group>"; };
+		450B65E122B1D0AB00907112 /* Down.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Down.m4a; sourceTree = "<group>"; };
+		450B65E222B1D0AB00907112 /* River Flows In You.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "River Flows In You.m4a"; sourceTree = "<group>"; };
+		450B65E322B1D0AB00907112 /* Fight Song.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fight Song.m4a"; sourceTree = "<group>"; };
+		450B65E422B1D0AB00907112 /* Dynamite.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dynamite.m4a; sourceTree = "<group>"; };
+		450B65E522B1D0AB00907112 /* Fireflies.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fireflies.m4a; sourceTree = "<group>"; };
+		450B65E622B1D0AB00907112 /* Bright Star.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bright Star.m4a"; sourceTree = "<group>"; };
+		450B65E722B1D0AB00907112 /* A Thousand Years.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Thousand Years.m4a"; sourceTree = "<group>"; };
 		450D45EA229CA6550090B5ED /* Moodify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450D45ED229CA6550090B5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		450D45EF229CA6550090B5ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450D45EF229CA6550090B5ED /* MoodChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChoiceViewController.swift; sourceTree = "<group>"; };
 		450D45F2229CA6550090B5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		450D45F4229CA6570090B5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450D45F7229CA6570090B5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450D45F9229CA6570090B5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450D45FF229CAA9B0090B5ED /* MoodChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChoiceView.swift; sourceTree = "<group>"; };
+		450D4601229CBAEF0090B5ED /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		450D4603229CBBE20090B5ED /* MoodChoiceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChoiceSelectionView.swift; sourceTree = "<group>"; };
+		450D4605229CDECD0090B5ED /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		4548EFA222A0DCD3007AE037 /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		4548EFA422A0DDFA007AE037 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		4548EFA622A0E047007AE037 /* VideoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
+		457ECB9E229F089400F4FCD7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4584317F22A87A6F005D8CC1 /* A Thousand Years.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A Thousand Years.png"; sourceTree = "<group>"; };
+		4584318022A87A6F005D8CC1 /* Kiss the Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kiss the Rain.png"; sourceTree = "<group>"; };
+		4584318122A87A70005D8CC1 /* River Flows In You.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "River Flows In You.png"; sourceTree = "<group>"; };
+		4584318222A87A70005D8CC1 /* Nuvole bianche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nuvole bianche.png"; sourceTree = "<group>"; };
+		4587DC3A22A0876B000B8617 /* MoodLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLinks.swift; sourceTree = "<group>"; };
+		4598099C229DEAD2002D6A67 /* OptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewController.swift; sourceTree = "<group>"; };
+		4598099E229DEB2D002D6A67 /* OptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewCell.swift; sourceTree = "<group>"; };
+		45A6CF7322A1D46E00E561DA /* AddJournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalEntryViewController.swift; sourceTree = "<group>"; };
+		45A6CF7522A1E2BB00E561DA /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		45B5C9F022A343100018F342 /* EditJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalViewController.swift; sourceTree = "<group>"; };
+		45C8A4A822A7AB2E00CCA95F /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		45C8A4AA22A7AE3E00CCA95F /* MoodStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodStatsViewController.swift; sourceTree = "<group>"; };
+		45C8A4AD22A85A5600CCA95F /* defaultProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultProfile.png; sourceTree = "<group>"; };
+		45D514D9229DFCB90089EDE0 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		45D514DB229E0B4D0089EDE0 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		45D514DD229E358F0089EDE0 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		45DDD6DD229F682B00E3390F /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		45DDD6FF229F767900E3390F /* Fireflies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fireflies.png; sourceTree = "<group>"; };
+		45DDD705229F785300E3390F /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		45DDD708229F79F600E3390F /* Dynamite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dynamite.png; sourceTree = "<group>"; };
+		45DDD709229F79F600E3390F /* The Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Man.png"; sourceTree = "<group>"; };
+		45DDD70A229F79F600E3390F /* I Gotta Feeling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "I Gotta Feeling.png"; sourceTree = "<group>"; };
+		45DDD70B229F79F600E3390F /* Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Down.png; sourceTree = "<group>"; };
+		45E4748E22A9D1A0006DA0D1 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		45E4749022A9D89B006DA0D1 /* StoreableByNameInUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreableByNameInUserDefaults.swift; sourceTree = "<group>"; };
+		45E4749122A9D89B006DA0D1 /* StoreableByName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreableByName.swift; sourceTree = "<group>"; };
+		45E4749422A9E6E7006DA0D1 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		45EA6F26229FC669006D7A56 /* QuotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTableViewController.swift; sourceTree = "<group>"; };
+		45EA6F28229FD001006D7A56 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		45EA6F2A229FD0E2006D7A56 /* ImageCollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		45EA6F2C229FD41A006D7A56 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		45EA6F2E229FD6C6006D7A56 /* ImageCollectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionTableViewController.swift; sourceTree = "<group>"; };
+		45EDECE322ACED67002FA66A /* Old Town Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Old Town Road.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +145,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4509E75E229F4520005720CA /* AVFoundation.framework in Frameworks */,
+				457ECB9F229F089400F4FCD7 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450B65D922B1D0AB00907112 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				450B65DA22B1D0AB00907112 /* Kiss the Rain.m4a */,
+				450B65DB22B1D0AB00907112 /* Nuvole bianche.m4a */,
+				450B65DC22B1D0AB00907112 /* Tik Tok.m4a */,
+				450B65DD22B1D0AB00907112 /* I Gotta Feeling.m4a */,
+				450B65DE22B1D0AB00907112 /* Battle Scars.m4a */,
+				450B65DF22B1D0AB00907112 /* Old Town Road.m4a */,
+				450B65E022B1D0AB00907112 /* The Man.m4a */,
+				450B65E122B1D0AB00907112 /* Down.m4a */,
+				450B65E222B1D0AB00907112 /* River Flows In You.m4a */,
+				450B65E322B1D0AB00907112 /* Fight Song.m4a */,
+				450B65E422B1D0AB00907112 /* Dynamite.m4a */,
+				450B65E522B1D0AB00907112 /* Fireflies.m4a */,
+				450B65E622B1D0AB00907112 /* Bright Star.m4a */,
+				450B65E722B1D0AB00907112 /* A Thousand Years.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		450D45E1229CA6550090B5ED = {
 			isa = PBXGroup;
 			children = (
 				450D45EC229CA6550090B5ED /* Moodify */,
 				450D45EB229CA6550090B5ED /* Products */,
+				457ECB9D229F089400F4FCD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +194,82 @@
 		450D45EC229CA6550090B5ED /* Moodify */ = {
 			isa = PBXGroup;
 			children = (
+				45E4749422A9E6E7006DA0D1 /* JournalEntryViewController.swift */,
+				45E4748E22A9D1A0006DA0D1 /* JournalEntry.swift */,
+				45C8A4A822A7AB2E00CCA95F /* MyProfileViewController.swift */,
+				45C8A4AA22A7AE3E00CCA95F /* MoodStatsViewController.swift */,
+				45B5C9F022A343100018F342 /* EditJournalViewController.swift */,
+				45A6CF7522A1E2BB00E561DA /* DatePickerViewController.swift */,
+				4587DC3A22A0876B000B8617 /* MoodLinks.swift */,
+				45EA6F28229FD001006D7A56 /* ImageCollectionViewCell.swift */,
+				45EA6F2A229FD0E2006D7A56 /* ImageCollectionTableViewCell.swift */,
+				45EA6F2C229FD41A006D7A56 /* Utilities.swift */,
+				45EA6F2E229FD6C6006D7A56 /* ImageCollectionTableViewController.swift */,
+				45EA6F26229FC669006D7A56 /* QuotesTableViewController.swift */,
+				4509E756229F3ED3005720CA /* SongTableViewCell.swift */,
+				4509E752229F1BF3005720CA /* MoodDictionaries.swift */,
+				45DDD6DD229F682B00E3390F /* MusicViewController.swift */,
+				45D514DD229E358F0089EDE0 /* WebsiteViewController.swift */,
+				45A6CF7322A1D46E00E561DA /* AddJournalEntryViewController.swift */,
+				45D514DB229E0B4D0089EDE0 /* DescriptionTableViewCell.swift */,
+				45D514D9229DFCB90089EDE0 /* Options.swift */,
+				4598099C229DEAD2002D6A67 /* OptionsTableViewController.swift */,
+				4598099E229DEB2D002D6A67 /* OptionTableViewCell.swift */,
+				450D4605229CDECD0090B5ED /* Mood.swift */,
 				450D45ED229CA6550090B5ED /* AppDelegate.swift */,
-				450D45EF229CA6550090B5ED /* ViewController.swift */,
+				450D45EF229CA6550090B5ED /* MoodChoiceViewController.swift */,
 				450D45F1229CA6550090B5ED /* Main.storyboard */,
+				450D45FF229CAA9B0090B5ED /* MoodChoiceView.swift */,
+				450D4603229CBBE20090B5ED /* MoodChoiceSelectionView.swift */,
+				450D4601229CBAEF0090B5ED /* Grid.swift */,
 				450D45F4229CA6570090B5ED /* Assets.xcassets */,
 				450D45F6229CA6570090B5ED /* LaunchScreen.storyboard */,
 				450D45F9229CA6570090B5ED /* Info.plist */,
+				4548EFA222A0DCD3007AE037 /* VideoTableViewController.swift */,
+				4548EFA422A0DDFA007AE037 /* VideoTableViewCell.swift */,
+				4548EFA622A0E047007AE037 /* VideoInfo.swift */,
+				45E4749122A9D89B006DA0D1 /* StoreableByName.swift */,
+				45E4749022A9D89B006DA0D1 /* StoreableByNameInUserDefaults.swift */,
+				450B65D922B1D0AB00907112 /* Music */,
+				45C8A4AC22A85A4500CCA95F /* Miscellaneous */,
+				45DDD707229F791200E3390F /* Song Images */,
 			);
 			path = Moodify;
+			sourceTree = "<group>";
+		};
+		457ECB9D229F089400F4FCD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4509E75D229F4520005720CA /* AVFoundation.framework */,
+				457ECB9E229F089400F4FCD7 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C8A4AC22A85A4500CCA95F /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				45C8A4AD22A85A5600CCA95F /* defaultProfile.png */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+		45DDD707229F791200E3390F /* Song Images */ = {
+			isa = PBXGroup;
+			children = (
+				45EDECE322ACED67002FA66A /* Old Town Road.png */,
+				45DDD70B229F79F600E3390F /* Down.png */,
+				45DDD708229F79F600E3390F /* Dynamite.png */,
+				45DDD70A229F79F600E3390F /* I Gotta Feeling.png */,
+				4584317F22A87A6F005D8CC1 /* A Thousand Years.png */,
+				4584318022A87A6F005D8CC1 /* Kiss the Rain.png */,
+				4584318222A87A70005D8CC1 /* Nuvole bianche.png */,
+				4584318122A87A70005D8CC1 /* River Flows In You.png */,
+				45DDD709229F79F600E3390F /* The Man.png */,
+				45DDD705229F785300E3390F /* noimage.png */,
+				45DDD6FF229F767900E3390F /* Fireflies.png */,
+			);
+			path = "Song Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +304,14 @@
 				TargetAttributes = {
 					450D45E9229CA6550090B5ED = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,9 +338,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DDD70D229F79F600E3390F /* The Man.png in Resources */,
+				45DDD700229F767900E3390F /* Fireflies.png in Resources */,
+				450B65E922B1D0AC00907112 /* Nuvole bianche.m4a in Resources */,
+				450B65EA22B1D0AC00907112 /* Tik Tok.m4a in Resources */,
 				450D45F8229CA6570090B5ED /* LaunchScreen.storyboard in Resources */,
+				450B65F422B1D0AC00907112 /* Bright Star.m4a in Resources */,
+				45DDD70C229F79F600E3390F /* Dynamite.png in Resources */,
+				450B65EE22B1D0AC00907112 /* The Man.m4a in Resources */,
+				4584318622A87A70005D8CC1 /* Nuvole bianche.png in Resources */,
+				4584318522A87A70005D8CC1 /* River Flows In You.png in Resources */,
+				450B65F222B1D0AC00907112 /* Dynamite.m4a in Resources */,
+				450B65F122B1D0AC00907112 /* Fight Song.m4a in Resources */,
+				450B65E822B1D0AC00907112 /* Kiss the Rain.m4a in Resources */,
+				450B65F322B1D0AC00907112 /* Fireflies.m4a in Resources */,
+				45EDECE422ACED68002FA66A /* Old Town Road.png in Resources */,
+				4584318322A87A70005D8CC1 /* A Thousand Years.png in Resources */,
+				45DDD706229F785400E3390F /* noimage.png in Resources */,
 				450D45F5229CA6570090B5ED /* Assets.xcassets in Resources */,
+				4584318422A87A70005D8CC1 /* Kiss the Rain.png in Resources */,
+				45DDD70E229F79F600E3390F /* I Gotta Feeling.png in Resources */,
+				450B65F522B1D0AC00907112 /* A Thousand Years.m4a in Resources */,
+				450B65EB22B1D0AC00907112 /* I Gotta Feeling.m4a in Resources */,
+				450B65EC22B1D0AC00907112 /* Battle Scars.m4a in Resources */,
+				45C8A4AE22A85A5600CCA95F /* defaultProfile.png in Resources */,
 				450D45F3229CA6550090B5ED /* Main.storyboard in Resources */,
+				450B65ED22B1D0AC00907112 /* Old Town Road.m4a in Resources */,
+				450B65F022B1D0AC00907112 /* River Flows In You.m4a in Resources */,
+				450B65EF22B1D0AC00907112 /* Down.m4a in Resources */,
+				45DDD70F229F79F600E3390F /* Down.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +377,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				450D45F0229CA6550090B5ED /* ViewController.swift in Sources */,
+				4598099F229DEB2D002D6A67 /* OptionTableViewCell.swift in Sources */,
+				45C8A4AB22A7AE3E00CCA95F /* MoodStatsViewController.swift in Sources */,
+				45A6CF7622A1E2BB00E561DA /* DatePickerViewController.swift in Sources */,
+				4509E753229F1BF3005720CA /* MoodDictionaries.swift in Sources */,
+				45EA6F29229FD001006D7A56 /* ImageCollectionViewCell.swift in Sources */,
+				4548EFA522A0DDFA007AE037 /* VideoTableViewCell.swift in Sources */,
+				45EA6F2B229FD0E2006D7A56 /* ImageCollectionTableViewCell.swift in Sources */,
+				4548EFA322A0DCD3007AE037 /* VideoTableViewController.swift in Sources */,
+				450D45F0229CA6550090B5ED /* MoodChoiceViewController.swift in Sources */,
+				45E4749222A9D89B006DA0D1 /* StoreableByNameInUserDefaults.swift in Sources */,
+				45B5C9F122A343100018F342 /* EditJournalViewController.swift in Sources */,
+				45EA6F2F229FD6C6006D7A56 /* ImageCollectionTableViewController.swift in Sources */,
+				450D4604229CBBE20090B5ED /* MoodChoiceSelectionView.swift in Sources */,
+				4548EFA722A0E047007AE037 /* VideoInfo.swift in Sources */,
+				45E4749522A9E6E7006DA0D1 /* JournalEntryViewController.swift in Sources */,
+				45C8A4A922A7AB2F00CCA95F /* MyProfileViewController.swift in Sources */,
+				45EA6F2D229FD41A006D7A56 /* Utilities.swift in Sources */,
+				45A6CF7422A1D46E00E561DA /* AddJournalEntryViewController.swift in Sources */,
 				450D45EE229CA6550090B5ED /* AppDelegate.swift in Sources */,
+				45EA6F27229FC669006D7A56 /* QuotesTableViewController.swift in Sources */,
+				45D514DA229DFCB90089EDE0 /* Options.swift in Sources */,
+				45DDD6DE229F682B00E3390F /* MusicViewController.swift in Sources */,
+				450D4600229CAA9B0090B5ED /* MoodChoiceView.swift in Sources */,
+				45D514DC229E0B4D0089EDE0 /* DescriptionTableViewCell.swift in Sources */,
+				45D514DE229E358F0089EDE0 /* WebsiteViewController.swift in Sources */,
+				4509E757229F3ED3005720CA /* SongTableViewCell.swift in Sources */,
+				4598099D229DEAD2002D6A67 /* OptionsTableViewController.swift in Sources */,
+				450D4602229CBAEF0090B5ED /* Grid.swift in Sources */,
+				45E4749322A9D89B006DA0D1 /* StoreableByName.swift in Sources */,
+				4587DC3B22A0876B000B8617 /* MoodLinks.swift in Sources */,
+				45E4748F22A9D1A0006DA0D1 /* JournalEntry.swift in Sources */,
+				450D4606229CDECD0090B5ED /* Mood.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

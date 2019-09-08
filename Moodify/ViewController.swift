@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MoodChoiceViewController.swift
 //  Moodify
 //
 //  Created by Avi Khemani on 5/27/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MoodChoiceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
